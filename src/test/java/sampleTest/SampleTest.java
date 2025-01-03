@@ -33,6 +33,7 @@ public class SampleTest {
         driver.manage().window().maximize();
 
         By by = By.xpath("//textarea[@aria-label=\"Search\"]");
+        System.out.println("Jenkins");
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(by));
