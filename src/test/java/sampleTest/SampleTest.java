@@ -36,6 +36,7 @@ public class SampleTest {
 
         System.out.println("Jenkins");
         System.out.println("pogo");
+        System.out.println("pushed file");
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(by));
