@@ -32,7 +32,7 @@ public class SampleTest {
         driver.get("https://www.google.com");
         driver.manage().window().maximize();
 
-        By by = By.xpath("//textarea[@aria-label=\"Search\"]");
+        By by = By.xpath("//textarea[@aria-label=\"earch\"]");
 
         System.out.println("Jenkins");
         System.out.println("pogo");
