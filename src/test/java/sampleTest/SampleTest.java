@@ -35,7 +35,7 @@ public class SampleTest {
         By by = By.xpath("//textarea[@aria-label=\"Search\"]");
 
         System.out.println("Jenkins");
-        System.out.println("pooo");
+        System.out.println("pogo");
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(by));
