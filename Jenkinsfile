@@ -16,11 +16,10 @@ pipeline {
         echo 'deploying'
       }
     }
-
-    post{
-       always{
-        echo 'ending'
-       }
-    }
   }
+  post{
+         always{
+          echo 'ending'
+         }
+      }
 }
