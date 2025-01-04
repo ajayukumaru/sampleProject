@@ -2,6 +2,7 @@ package sampleTest;
 
 import Utils.ExcelUtils;
 import config.Config;
+import io.restassured.response.Response;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -18,6 +19,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map.*;
 import java.util.Map;
+
+import static io.restassured.RestAssured.given;
 
 public class SampleTest {
 
