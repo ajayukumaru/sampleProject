@@ -16,5 +16,11 @@ pipeline {
         echo 'deploying'
       }
     }
+
+    post{
+       always{
+        echo 'ending'
+       }
+    }
   }
 }
