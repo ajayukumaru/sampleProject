@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class RestApi {
+public class RestApiTest {
 
     @Test
     public void testRestAPI(){
